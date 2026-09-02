@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Architecture Webpage</title>
 
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 1100px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .imageContainer {
+      width: 1100px;
+      margin-bottom: 20px;
+    }
+
+    .imageContainer img {
+      width: 1100px;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    table {
+      width: 1100px;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 10px;
+      vertical-align: top;
+      border: 1px solid #ccc;
+    }
+
+    td img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .text {
+      width: 600px;
+      text-align: justify;
+      color: #444;
+      line-height: 1.6;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="container">
+    <h1>Architecture</h1>
+
+    <div class="imageContainer">
+      <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1100&q=80" alt="Architecture Banner">
+    </div>
+
+    <table>
+      <tr>
+        <td width="200">
+          <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=200&q=80" alt="Building">
+        </td>
+
+        <td width="600" class="text">
+          <h3>Modern Architecture</h3>
+          <p>
+            Modern architecture emphasizes simplicity, functionality, and clean lines.
+            Architects use materials such as glass, steel, and concrete to create elegant
+            structures that are both aesthetically pleasing and practical. Sustainable
+            design and energy efficiency have become key principles of modern architecture.
+          </p>
+        </td>
+
+        <td width="200">
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=200&q=80" alt="Skyscraper">
+        </td>
+      </tr>
+
+      <tr>
+        <td width="200">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=200&q=80" alt="Bridge">
+        </td>
+
+        <td width="600" class="text">
+          <h3>Historical Architecture</h3>
+          <p>
+            Historical architecture reflects the culture, traditions, and technological
+            achievements of different civilizations. From ancient temples and castles to
+            Gothic cathedrals and classical monuments, these structures continue to inspire
+            architects around the world while preserving the heritage of humanity.
+          </p>
+        </td>
+
+        <td width="200">
+          <img src="https://images.unsplash.com/photo-1529429617124-aee711a5ac1c?auto=format&fit=crop&w=200&q=80" alt="Temple">
+        </td>
+      </tr>
+    </table>
+  </div>
 
 </body>
-
 </html>
